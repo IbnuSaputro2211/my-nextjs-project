@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 import { FaCode, FaPaintBrush, FaLaptopCode, FaEnvelope } from "react-icons/fa";
 import Image from "next/image";
@@ -57,7 +57,7 @@ export default function Home() {
             <p className="mt-2">Website pribadi yang menampilkan informasi tentang diri saya, keahlian, serta proyek-proyek yang telah saya kerjakan.</p>
             <p className="mt-2">Teknologi: Next.js, Tailwind CSS, Node.js</p>
             <a 
-              href="https://github.com/IbnuSaputro2211/biodata-saya.git" 
+              href="https://github.com/IbnuSaputro2211/biodata-saya" 
               className="text-blue-500 mt-4 inline-block"
             >
               GitHub Repository
@@ -71,7 +71,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold">Contact</h2>
         <p className="mt-2">Email: ibnusaputro123@gmail.com</p>
         <a 
-          href="mailto: ibnusaputro123@gmail.com" 
+          href="mailto:ibnusaputro123@gmail.com" 
           className="bg-white text-blue-500 px-6 py-2 rounded-lg mt-4 inline-flex items-center mx-auto"
         >
           <FaEnvelope className="mr-2" /> Get in Touch
